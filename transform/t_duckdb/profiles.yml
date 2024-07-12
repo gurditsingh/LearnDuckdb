@@ -1,0 +1,6 @@
+t_duckdb:
+  outputs:
+    dev:
+      type: duckdb
+      path: output\dbt.duckdb
+  target: dev

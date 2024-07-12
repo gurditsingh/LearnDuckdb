@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "learnduckdb"
+version = "1.0"
+description = "first project"
+authors = ["Gurdit Singh"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+duckdb = "^1.0.0"
+pandas = "^2.2.2"
+fire = "^0.6.0"
+loguru = "^0.7.2"
+pydantic = "^2.7.4"
+pytest = "^8.2.2"
+ruff = "^0.4.9"
+dbt-duckdb = "^1.8.1"
+deltalake = "^0.18.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.pytest.ini_options]
+pythonpath=[
+    "."
+]
